@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Mail;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    
+
     /*
       Function to send the email through the library send grid
     */
@@ -24,7 +24,7 @@ class Controller extends BaseController
     public function sendMail ()
     {
 
-        $data = ['message' => 'This is a test!'];
+        $data = ['message' => 'Isso é um teste!'];
         Mail::to('recipientemail@exemple.com')->send(new TestEmail($data));
     }
 }
