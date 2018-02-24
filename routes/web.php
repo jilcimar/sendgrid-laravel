@@ -18,4 +18,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+/*
+|--------------------------------------------------------------------------
+|Route Test
+|--------------------------------------------------------------------------
+| Test path, here '/mail' calls the 'sendMail' function created in our class 'Controller.php'
+| Rota de teste, aqui '/mail' chama a função 'sendMail' criada na nossa classe 'Controller.php'
+*/
 Route::get('/mail', 'Controller@sendMail');
