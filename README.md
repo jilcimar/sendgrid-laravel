@@ -1,4 +1,4 @@
-# [Envio de email utilizando a biblioteca Send Grid c]om Laravel 5.5
+# Envio de email utilizando a biblioteca Send Grid com Laravel 5.5
 Para este exemplo, enviaremos um email com SendGrid usando o driver SMTP.
 Para obter mais informações, confira a documentação para a interface de email do Laravel.
 
