@@ -3,7 +3,7 @@ Para este exemplo, enviaremos um email com SendGrid usando o driver SMTP.
 Para obter mais informações, confira a documentação para a interface de email do Laravel.
 
 ## Configurando o .env
-No .envexemple tem o modelo para criar a configuração do .env
+No .envexemple do projeto tem o modelo para criar a configuração do seu .env
 ```
 MAIL_DRIVER=smtp
 MAIL_HOST=smtp.sendgrid.net
@@ -71,7 +71,7 @@ O arquivo será criado em :
 ```
 app/resources/views/emails/test.blade.php
 ```
-O html simples para o teste ficará assim:
+O html que será o template do nosso email ficará assim:
 ```
 <!DOCTYPE html>
     <html lang="pt-br">
